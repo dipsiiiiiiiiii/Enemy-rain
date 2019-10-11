@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#bg {
+    background-image: url(/images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+#hero {
+    background-image: url(./images/hero.png);
+    background-size: 140px 54px;
+    width: 35px;
+    height: 54px;
+    position: absolute;
+    bottom: 0;
+}
+
+.enemy {
+    background-image: url(./images/enemy.png);
+    background-size: 90px 54px;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 54px;
+    position: absolute;
+}
